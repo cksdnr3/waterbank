@@ -1,0 +1,12 @@
+server:
+  port: 7777
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost/support_board?serverTimezone=UTC&useSSL=false
+    username: bitweb
+    password: dkdlxl123
+    driverClassName: com.mysql.cj.jdbc.Driver
